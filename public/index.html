@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <title>小姜知道后台管理系统</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- 加载第三发包的 CDN 链接 -->
+  <% htmlWebpackPlugin.options.files.js.forEach(cdnURL=> { %>
+    <script src="<%= cdnURL %>"></script>
+    <% }) %>
+</body>
+
+</html>

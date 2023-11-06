@@ -1,0 +1,41 @@
+.ant-layout {
+    height: 100%;
+  }
+  
+  .header {
+    padding: 0;
+    height: 74px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 74px;
+    margin: 5px 0 5px 0;
+    background: url('~@/assets/logo.jpg') no-repeat center / 190px auto;
+  }
+  
+  .layout-content {
+    overflow-y: auto;
+  }
+  
+  .user-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 30px;
+    color: #fff;
+    height: 74px;
+    line-height: 74px;
+  
+    .user-name {
+      margin-right: 20px;
+    }
+  
+    .user-logout {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  .ant-layout-header {
+    padding: 0 !important;
+  }
